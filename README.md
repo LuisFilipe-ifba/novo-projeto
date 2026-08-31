@@ -2,7 +2,7 @@
 
 ## 📂 Estrutura do Projeto
 
-
+```
 pasta_principal/
 │
 ├── assets/
@@ -21,5 +21,4 @@ pasta_principal/
 │   └── about/
 │
 └── index.html
-
-
+```
