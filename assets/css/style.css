@@ -1,22 +1,40 @@
 body{
-    background-color: #2563EB;
-    color: #fff;
-    
+    background-color: #F8FAFC;
+    color: #1F2937;
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
-nav a{
-    color: black;
+
+nav a {
+    display: block;
+    color: #FFFFFF;
     text-decoration: none;
+    padding: 10px 16px;
+    border: 8px;
 }
 
 nav{
     background-color: #1E3A5F;
-    padding: 10px;
+    padding: 10px 20px;
+    outline: 1px solid black;
+    border: 1px solid black;
 
 }
+
+header{
+    background-color: #FBBF24;
+    padding: 24px 20px;
+    text-align: center;
+    outline: 1px solid black;
+    border: 1px solid black;
+}
+
 main{
-    padding: 20px;
-    background-color: #1E3A5F
+    padding: 10px 20px;
+    background-color: #F8FAFC;
+    outline: 1px solid black;
+    border: 1px solid black;
 }
 
 nav ul{
@@ -25,10 +43,39 @@ nav ul{
     margin: 5px;
     padding: 5px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 nav ul li{
     border: 2px solid black;
     margin: 10px;
+    background-color: #1E3A5F;
+}
+nav ul li:hover{
+    background-color: #2563EB;
+    transition: background-color 0.2s ease;
+}
+
+section{
+    background-color: #F8FAFC;
+    padding: 10px 20px;
+    outline: 1px solid black;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+button#confirmar{
+    background-color: #2563EB;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+footer{
     background-color: #FBBF24;
+    padding: 10px 20px;
+    outline: 1px solid black;
+    border: 1px solid black;
 }
