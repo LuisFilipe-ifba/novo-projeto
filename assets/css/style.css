@@ -6,7 +6,7 @@ body{
 }
 
 
-nav a {
+nav#menu a {
     display: block;
     color: #FFFFFF;
     text-decoration: none;
@@ -14,7 +14,7 @@ nav a {
     border: 8px;
 }
 
-nav{
+nav#menu{
     background-color: #1E3A5F;
     padding: 10px 20px;
     outline: 1px solid black;
@@ -37,7 +37,7 @@ main{
     border: 1px solid black;
 }
 
-nav ul{
+nav#menu ul{
     border: 1px solid black;
     list-style-type: none;
     margin: 5px;
@@ -47,12 +47,12 @@ nav ul{
     align-items: center;
 }
 
-nav ul li{
+nav#menu ul li{
     border: 2px solid black;
     margin: 10px;
     background-color: #1E3A5F;
 }
-nav ul li:hover{
+nav#menu ul li:hover{
     background-color: #2563EB;
     transition: background-color 0.2s ease;
 }
